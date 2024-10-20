@@ -12,6 +12,13 @@ player.shape("triangle")
 player.penup()
 player.speed(0)
 
+#Create goal
+goal = turtle.Turtle()
+goal.color("blue")
+goal.shape("circle")
+goal.pen(0)
+
+
 #Create border
 myPen = turtle.Turtle()
 myPen.penup()
